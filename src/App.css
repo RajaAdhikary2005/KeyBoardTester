@@ -1,0 +1,137 @@
+body{
+  display: flex;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+.container{
+  background-color: transparent;
+  margin-top: 37px;
+  width: 1500px;
+  height:650px;
+  display: grid;
+  grid-template-rows: 100px 1fr;
+  row-gap: 25px;
+}
+.header{
+  background-color: white;
+  margin: none;
+  border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+.heading{
+  border: 0;
+  padding: 27px;
+  margin: 0;
+  font-size: 40px;
+}
+.main{
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  grid-template-rows: 100px 1fr;
+  background-color: white;
+  background: rgba(0, 0, 0, 0.3); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.f-keys{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding-top: 25px;
+  justify-items: center;
+}
+.alphabetkeys{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.firstalpha,
+.secondalpha{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
+  justify-items: center;  
+}
+.secondalpha{
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
+}
+.thirdalpha{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
+  justify-items: center;
+}
+.fourthalpha{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
+  justify-items: center;
+}
+.fifthalpha{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 5fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+.sidekeys{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin: 0;
+}
+.firstthreekeys{
+  padding-top: 25px;
+}
+.firstthreekeys,
+.secondthreekeys,
+.thirdthreekeys{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+.firstarrowkey{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+.secondarrowkeys{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  border-bottom-right-radius: 25px;
+}
+.f-keys button,
+.firstalpha button,
+.secondalpha button,
+.thirdalpha button,
+.fourthalpha button,
+.fifthalpha button,
+.firstthreekeys button,
+.secondthreekeys button,
+.thirdthreekeys button,
+.firstarrowkey button,
+.secondarrowkeys button{
+  width:55px;
+  height: 55px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 13px;
+}
+.fifthalpha button{
+  width: 85px;
+}
+.firstarrowkey button,
+.secondarrowkeys button{
+  font-size: large;
+}
+button {
+  transition: background-color 0.3s ease; /* Smooth effect */
+}
+.pressed{
+  background-color: rgba(0, 151, 0, 0.562) !important;
+  transition: 0.05s;
+}
