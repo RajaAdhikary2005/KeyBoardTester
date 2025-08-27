@@ -1,9 +1,11 @@
 # React + Vite
 
 # 🚀 My Project
+- ## ✨ Features
 - ✅ Test all keyboard keys (letters, numbers, function keys, etc.)
 - 🎹 Real-time key press detection
 - 🖥️ Simple and lightweight Windows app
+- 🖥️ Works only on **Windows computers or laptops**
 - ⚡ No installation required – just run and test
 This is my project hosted on **Vercel**.
 
